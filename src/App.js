@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home.js";
 import Unsubscribe from "./pages/Unscubscribe.js";
 import Login from "./pages/Login";
@@ -14,7 +14,7 @@ function App() {
   };
   const authenticated = checkAuthentication();
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
@@ -27,7 +27,7 @@ function App() {
         <Route path="/Afterlogin" element={<Afterlogin />} />
         <Route path="/Profile" element={<Profile />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
