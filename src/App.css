@@ -1,0 +1,1520 @@
+.nav {
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  left: 0%;
+  top: 6.5%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: rgba(255, 212, 207, 0.5);
+}
+
+.group {
+  position: absolute;
+  width: 90%;
+  height: 12%;
+  left: 20%;
+  top: 8%;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 7.29%;
+  right: 82.81%;
+  top: 25.58%;
+  bottom: 97.5%;
+}
+
+.nav-item {
+  display: flex;
+  position: absolute;
+  width: 55%;
+  height: 22px;
+  left: 30%;
+  top: 15%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav-item li {
+  margin-right: 30px;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  border: none;
+  padding: 10px 20px; /* Adjust the padding values as needed */
+  color: white;
+  border-radius: 10px;
+  font-size: 16px; /* Adjust the font size as needed */
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-top: -5px;
+  justify-content: center;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+button a {
+  margin: 0;
+  padding-right: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-banner {
+  position: absolute;
+  width: 564.41px;
+  height: 805.73px;
+  left: 1082.06px;
+  top: 135px;
+}
+
+/*language selector*/
+.dropdown {
+  width: 100px;
+  margin: -10px auto;
+  margin-left: 0;
+    
+}
+
+.dropdown .dropdown-content {
+  
+  position: absolute;
+  top: 210%;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  color: #333;
+  width: 7%;
+}
+.dropdown .dropdown-btn {
+  padding: 10px;
+  background: rgba(255, 212, 207, 0);
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropdown .dropdown-content .dropdown-item {
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #040303;
+
+}
+.dropdown .dropdown-content .dropdown-item:hover {
+  background-color: #f4f4f4;
+  border-bottom: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/*banner*/
+.phone {
+  position: relative;
+  width: 500px;
+  margin: -200px;
+  margin-top: 5px;
+}
+
+/*first part of first text*/
+.s-1 {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  left: 15%;
+  top: 30%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 400%;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+/*second part of first text*/
+.s-2 {
+  position: absolute;
+  width: 355px;
+  height: 30px;
+  left: 255px;
+  top: 450px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+/*search bar*/
+.search-bar {
+  position: absolute;
+  width: 360px;
+  height: 50px;
+  left: 430px;
+  top: 573px;
+  background: #ffffff;
+  box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/*mobile number*/
+.search {
+  margin-left: 90px;
+  margin-top: 15px;
+  width: 210px;
+  height: 18px;
+  border: 0px solid rgb(191, 184, 184);
+}
+
+/*search icon*/
+.search-1 {
+  position: absolute;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  left: 315px;
+  top: 10.5px;
+}
+
+/*start button*/
+.g-s {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 255px;
+  top: 578px;
+  background: #0a2540;
+  border-radius: 12px;
+}
+
+/*country picker*/
+.PhoneInput {
+  position: absolute;
+  width: 80px;
+  height: 22px;
+  left: 437px;
+  top: 588px;
+}
+
+/*last text*/
+.last-text {
+  position: absolute;
+  width: 500px;
+  height: 56px;
+  left: 255px;
+  top: 650px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebeb;
+}
+
+/*location icon*/
+.location-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 400px;
+  right: 0.68%;
+  top: -200px;
+  bottom: 7.17%;
+  transform: rotate(0deg);
+}
+
+/*popup box*/
+/*background box*/
+.popup1 {
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  left: 180px;
+  top: -100px;
+  background: #ffffff;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    rgba(255, 255, 255, 0.01);
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  transform: rotate(15deg);
+}
+/*phone found box*/
+.popup2 {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 192px;
+  top: -146px;
+  transform: rotate(0.45deg);
+}
+/*text*/
+.popup-text {
+  position: absolute;
+  width: 340px;
+  height: 60px;
+  left: 200px;
+  top: -20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #070000;
+  transform: rotate(15deg);
+}
+
+/*first offer box*/
+.offer-comp-1 {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 200px;
+  top: 970px;
+
+  background: #171c1c;
+  border-radius: 30px;
+}
+
+.offer-comp-1-text-1 {
+  position: absolute;
+  width: 500px;
+  height: 66px;
+  left: 240px;
+  top: 950px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 66px;
+  color: #ffffff;
+}
+
+.offer-comp-1-text-2 {
+  position: absolute;
+  width: 395px;
+  height: 24px;
+  left: 240px;
+  top: 1050px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.offer-comp-1-text-3 {
+  position: absolute;
+  width: 258px;
+  height: 48px;
+  left: 240px;
+  top: 1100px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.offer-comp-1-img {
+  position: absolute;
+  width: 330px;
+  height: 280 px;
+  left: 265px;
+  top: 1145px;
+}
+
+.offer-comp-1-btn {
+  border-radius: 50%;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 238px;
+  top: 1180px;
+  background: #1664fa;
+}
+
+.offer-comp-1-btn-arrow {
+  margin-left: 0px;
+}
+
+/*srcond offer box*/
+.offer-comp-2 {
+  position: absolute;
+  width: 380px;
+  height: 450px;
+  left: 689px;
+  top: 970px;
+  background: #ecedef;
+  border-radius: 20px;
+}
+
+.offer-comp-2-trial {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 15px;
+  gap: 10px;
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  left: 715px;
+  top: 990px;
+  background: #333333;
+  border-radius: 50px;
+}
+
+.offer-comp-2-trial-text {
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ecedef;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 981px;
+  left: 727px;
+}
+
+.offer-comp-2-text1 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 720px;
+  top: 1010px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  color: #333333;
+}
+
+.offer-comp-2-text2 {
+  position: absolute;
+  width: 110px;
+  height: 22px;
+  left: 880px;
+  top: 1038px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.offer-comp-2-text3 {
+  position: absolute;
+  width: 330px;
+  height: 128px;
+  left: 720px;
+  top: 1130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.offer-comp-2-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 330px;
+  height: 60px;
+  left: 715px;
+  top: 1350px;
+  background: #1664fa;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.offer-comp-2-btn-text {
+  width: 100px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*third offer box*/
+.offer-comp-3 {
+  position: absolute;
+  width: 380px;
+  height: 450px;
+  left: 1108px;
+  top: 970px;
+  background: #1664fa;
+  border-radius: 20px;
+}
+
+.offer-comp-3-trial {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 15px;
+  gap: 10px;
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  left: 1130px;
+  top: 990px;
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+.offer-comp-3-trial-text {
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #1664fa;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 981px;
+  left: 1140px;
+}
+
+.offer-comp-3-text1 {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 1140px;
+  top: 1010px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.offer-comp-3-text2 {
+  position: absolute;
+  width: 98px;
+  height: 22px;
+  left: 1330px;
+  top: 1038px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.offer-comp-3-text3 {
+  position: absolute;
+  width: 330px;
+  height: 98px;
+  left: 1140px;
+  top: 1130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.offer-comp-3-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 330px;
+  height: 60px;
+  left: 1133px;
+  top: 1350px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.offer-comp-3-btn-text {
+  width: 134px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1664fa;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*woking process*/
+
+.W-P-main {
+  position: absolute;
+  width: 1688px;
+  height: 613px;
+  left: 0px;
+  top: 1550px;
+  background: linear-gradient(180deg, rgba(247, 246, 249, 0) 0%, #f7f6f9 100%);
+}
+
+.W-P-head {
+  position: absolute;
+  width: 500px;
+  height: 66px;
+  left: 630px;
+  top: 0px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  text-align: center;
+  color: #263238;
+}
+
+/*W-P-component 1*/
+.W-P-comp-1 {
+  position: absolute;
+  width: 450px;
+  height: 275.79px;
+  left: 255px;
+  top: 450px;
+}
+
+.W-P-comp-1-design {
+  position: absolute;
+  top: -200px;
+  left: -50px;
+  width: 400px;
+}
+
+.W-P-comp-1-round {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 270px;
+  top: -200px;
+  background: #1664fa;
+  border-radius: 50%;
+}
+
+.W-P-comp-1-round-text {
+  position: absolute;
+  width: 27px;
+  height: 54px;
+  left: 23px;
+  top: -39px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.W-P-comp-1-text-1 {
+  position: absolute;
+  width: 164px;
+  height: 29px;
+  left: -10px;
+  top: -190px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #263238;
+}
+
+.W-P-comp-1-text-2 {
+  position: absolute;
+  width: 285px;
+  height: 52px;
+  left: -10px;
+  top: -130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #555555;
+}
+
+.W-P-comp-1-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -10px;
+  top: -50px;
+  background: #263238;
+  border-radius: 50%;
+}
+
+.W-P-comp-1-arrow-img {
+  position: absolute;
+  width: 20px;
+  left: 14px;
+  top: 15px;
+}
+
+/*W-P-component 2*/
+.W-P-comp-2 {
+  position: absolute;
+  width: 450px;
+  height: 275.79px;
+  left: 255px;
+  top: 450px;
+}
+
+.W-P-comp-2-design {
+  position: absolute;
+  top: -200px;
+  left: 390px;
+  width: 400px;
+}
+
+.W-P-comp-2-round {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 710px;
+  top: -200px;
+  background: #1664fa;
+  border-radius: 50%;
+}
+
+.W-P-comp-2-round-text {
+  position: absolute;
+  width: 27px;
+  height: 54px;
+  left: 23px;
+  top: -39px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.W-P-comp-2-text-1 {
+  position: absolute;
+  width: 164px;
+  height: 29px;
+  left: 425px;
+  top: -190px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #263238;
+}
+
+.W-P-comp-2-text-2 {
+  position: absolute;
+  width: 285px;
+  height: 52px;
+  left: 425px;
+  top: -130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #555555;
+}
+
+.W-P-comp-2-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 425px;
+  top: -50px;
+  background: #263238;
+  border-radius: 50%;
+}
+
+.W-P-comp-2-arrow-img {
+  position: absolute;
+  width: 20px;
+  left: 14px;
+  top: 15px;
+}
+
+/*W-P-component 3*/
+.W-P-comp-3 {
+  position: absolute;
+  width: 450px;
+  height: 275.79px;
+  left: 255px;
+  top: 450px;
+}
+
+.W-P-comp-3-design {
+  position: absolute;
+  top: -200px;
+  left: 830px;
+  width: 400px;
+}
+
+.W-P-comp-3-round {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 1150px;
+  top: -200px;
+  background: #1664fa;
+  border-radius: 50%;
+}
+
+.W-P-comp-3-round-text {
+  position: absolute;
+  width: 27px;
+  height: 54px;
+  left: 23px;
+  top: -39px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.W-P-comp-3-text-1 {
+  position: absolute;
+  width: 164px;
+  height: 29px;
+  left: 865px;
+  top: -190px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #263238;
+}
+
+.W-P-comp-3-text-2 {
+  position: absolute;
+  width: 285px;
+  height: 52px;
+  left: 865px;
+  top: -130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #555555;
+}
+
+.W-P-comp-3-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 865px;
+  top: -50px;
+  background: #263238;
+  border-radius: 50%;
+}
+
+.W-P-comp-3-arrow-img {
+  position: absolute;
+  width: 20px;
+  left: 14px;
+  top: 15px;
+}
+
+/*Why tracelo*/
+
+.W-T-head {
+  position: absolute;
+  width: 1000px;
+  height: 66px;
+  left: 670px;
+  top: 2250px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 66px;
+  color: #263238;
+}
+
+.W-T-head-contain {
+  position: absolute;
+  width: 585px;
+  height: 24px;
+  left: 600px;
+  top: 2330px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #555555;
+}
+
+/*first container*/
+.W-T-first-img {
+  position: absolute;
+  width: 112.71px;
+  height: 112.71px;
+  left: 200px;
+  top: 2500px;
+}
+.W-T-First-Text-1 {
+  position: absolute;
+  width: 200px;
+  height: 112.71px;
+  left: 200px;
+  top: 2620px;
+}
+
+.W-T-First-Text-2 {
+  position: absolute;
+  width: 300px;
+  height: 112.71px;
+  left: 200px;
+  top: 2650px;
+}
+
+/*second container*/
+.W-T-second-img {
+  position: absolute;
+  width: 112.71px;
+  height: 112.71px;
+  left: 530px;
+  top: 2500px;
+}
+
+.W-T-second-Text-1 {
+  position: absolute;
+  width: 200px;
+  height: 112.71px;
+  left: 530px;
+  top: 2620px;
+}
+
+.W-T-second-Text-2 {
+  position: absolute;
+  width: 300px;
+  height: 112.71px;
+  left: 530px;
+  top: 2650px;
+}
+
+/*third conatiner*/
+.W-T-third-img {
+  position: absolute;
+  width: 112.71px;
+  height: 112.71px;
+  left: 860px;
+  top: 2500px;
+}
+.W-T-third-Text-1 {
+  position: absolute;
+  width: 250px;
+  height: 112.71px;
+  left: 860px;
+  top: 2620px;
+}
+
+.W-T-third-Text-2 {
+  position: absolute;
+  width: 300px;
+  height: 112.71px;
+  left: 860px;
+  top: 2650px;
+}
+
+/*fourth container*/
+.W-T-fourth-img {
+  position: absolute;
+  width: 112.71px;
+  height: 112.71px;
+  left: 1190px;
+  top: 2500px;
+}
+
+.W-T-fourth-Text-1 {
+  position: absolute;
+  width: 250px;
+  height: 112.71px;
+  left: 1190px;
+  top: 2620px;
+}
+
+.W-T-fourth-Text-2 {
+  position: absolute;
+  width: 300px;
+  height: 112.71px;
+  left: 1190px;
+  top: 2650px;
+}
+
+.W-T-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  left: 750px;
+  top: 2800px;
+  background: #1664fa;
+  border-radius: 12px;
+}
+
+.faq-back {
+  position: absolute;
+  width: 1688px;
+  height: 100px;
+  left: 0px;
+  top: 2900px;
+  background: linear-gradient(180deg, rgba(247, 246, 249, 0) 0%, #f7f6f9 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.faq-first-text {
+  position: absolute;
+  width: 671px;
+  height: 66px;
+  left: 535px;
+  top: 2950.01px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  text-align: center;
+  color: #263238;
+}
+
+.faq-second-text {
+  position: absolute;
+  width: 383px;
+  height: 24px;
+  left: 670px;
+  top: 3100px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+  color: #555555;
+}
+
+.faq-wrapper {
+  position: absolute;
+  width: 1000px;
+  height: 24px;
+  left: 344px;
+  top: 3200px;
+  font-family: "Lato";
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.faq-img {
+  width: 60%;
+}
+
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.footer-main {
+  position: absolute;
+  width: 1566;
+  height: 300px;
+  left: 50px;
+  right: 50px;
+  top: 3800px;
+  margin-bottom: 100px;
+  background: #0a2540;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.footer-logo img {
+  position: absolute;
+  left: 10%;
+  right: 76.41%;
+  top: 20.64%;
+  bottom: 7.39%;
+}
+
+.footer-logo-text {
+  position: absolute;
+  width: 360px;
+  height: 72px;
+  left: 10%;
+  top: 40%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-header1 {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 60%;
+  top: 20.64%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.footer-header1-sections {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 57.5%;
+  top: 34%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+.footer-header1-sections a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-header2 {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 75%;
+  top: 20.64%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.footer-header2-sections {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 72.5%;
+  top: 34%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+.footer-header2-sections a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  top: 250px;
+  left: 10%;
+  background: #ffffff;
+}
+
+.footer-footer-text {
+  position: absolute;
+  width: 94px;
+  height: 21px;
+  left: 10%;
+  top: 85%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.footer-footer-sections {
+  display: flex;
+  position: absolute;
+  height: 21px;
+  right: 8.3%;
+  top: 85%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+
+.footer-footer-sections li {
+  margin-right: 25px;
+}
+.footer-footer-sections a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.padding {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 4100px;
+  background: #ffffff;
+}
+
+.whytracelo{
+  height:50%;
+  top: 100px;
+}
+
+/*Login-page*/
+
+.Login-page {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background: #424141;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(167, 30, 30, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Login-title {
+  position: absolute;
+  left: 17%;
+  top: 5%;
+  color: #ffffff;
+  font-size: 250%;
+}
+
+.Form {
+  position:   absolute;
+  width: 50%;
+  left: 5%;
+  top: 20%;
+}
+
+.Login-text-box1 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 15%;
+  top: 150%;
+  border-radius: 10px;
+}
+.Login-text-box1::placeholder {
+  padding-left: 5%;
+}
+.Login-text-box2::placeholder {
+  padding-left: 5%;
+}
+
+.Login-text-box2 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 15%;
+  top: 300%;
+  border-radius: 10px;
+}
+
+.Login-btn {
+  position: absolute;
+  width: 30%;
+  top: 500%;
+  left: 25%;
+  background-color: #0a2540;
+}
+
+.Login-btn p {
+  position: absolute;
+  left: 35%;
+  font-size: 100%;
+}
+
+.Login-Mid-Line {
+  position: absolute;
+  width: 90%;
+  rotate: 90deg;
+  top: 265%;
+  left: 45%;
+}
+
+.Signup-logo {
+  position: absolute;
+  width: 30%;
+  left: 58%;
+  top: 35%;
+}
+
+.Sign-up {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+}
+.Sign-up li {
+  list-style: none;
+  color: #e3e3e3;
+}
+.Sign-up a {
+  color: black;
+}
+
+/*signup page*/
+
+.Signup-title {
+  position: absolute;
+  left:40%;
+  top: 2%;
+  color: #ffffff;
+  font-size: 250%;
+}
+
+.Form {
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  top: 20%;
+}
+
+.Signup-text-box1 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 70%;
+  top: 160%;
+  border-radius: 10px;
+}
+
+.Signup-text-box2 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 70%;
+  top: 300%;
+  border-radius: 10px;
+}
+.Signup-text-box3 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 70%;
+  top: 440%;
+  border-radius: 10px;
+}
+.Signup-text-box4 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 130%;
+  top: 160%;
+  border-radius: 10px;
+}
+.Signup-text-box5 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left:130%;
+  top:300%;
+  border-radius: 10px;
+}
+.Signup-text-box6 {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 130%;
+  top: 440%;
+  border-radius: 10px;
+}
+
+.Signup-btn {
+  position: absolute;
+  width: 50%;
+  top: 600%;
+  left: 100%;
+  background-color: #0a2540;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.Signup-btn p {
+  
+  font-size: 100%;
+}
+
+.Signup-Mid-Line {
+  position: absolute;
+  width: 60%;
+  rotate: 90deg;
+  top: 350%;
+  left: 30%;
+}
+
+.Login-logo {
+  position: absolute;
+  width: 20%;
+  left: 7%;
+  top: 45%;
+}
+
+.Log-In {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  font-size: 150%;
+}
+.Log-In li {
+  list-style: none;
+  color: #e3e3e3;
+}
+.Log-In a {
+  color: black;
+}
+
+.Signup-text-box1::placeholder {
+  padding-left: 5%;
+}
+.Signup-text-box2::placeholder {
+  padding-left: 5%;
+}
+.Signup-text-box3::placeholder {
+  padding-left: 5%;
+}
+.Signup-text-box4::placeholder {
+  padding-left: 5%;
+}
+.Signup-text-box5::placeholder {
+  padding-left: 5%;
+}
+.Signup-text-box6::placeholder {
+  padding-left: 5%;
+}
+
+/*google login btn*/
+.Google {
+  position: absolute;
+  width: 5%;
+  top: 68%;
+  left: 8%;
+  background-color: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Google img {
+  width: 30px;
+  height: 30px;
+}
