@@ -8,6 +8,7 @@ import Afterlogin from "./pages/Afterlogin";
 import Profile from "./component/Profile.js";
 
 function App() {
+  
   const checkAuthentication = () => {
     return false;
   };
